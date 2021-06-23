@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgba(243, 243, 243, 0.342);
+}
+
+#container{
+    max-width: 70%;
+    /* background-color: blueviolet;    */
+    display: flex;
+    flex-direction: column;
+    margin: auto;    
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    /* margin: auto; */
+}
+
+h1{
+    color:  rgb(55, 2, 104);
+    padding: 10px;
+    margin-left: 30px;
+    font-size: 2.5rem;
+    width: 70%;
+    margin-left: 250px;
+    border-bottom: solid 1px rgba(117, 117, 117, 0.116);
+    font-weight: bold;
+}
+
+
+header{
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+    margin-bottom: 25px;
+    box-shadow: 2px 5px 11px -8px rgba(0, 0, 0, 0.212);
+    background-color: white;
+    height: 120px;    
+}
+
+nav{
+    padding: 15px;
+    font-size: 1.1rem;   
+    width: 70%;
+    margin-left: 220px;
+
+}
+
+nav a {
+    margin: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a:hover, a:focus{
+    color: chartreuse;
+}
+
+.redes-sociais{
+    background-color: white;
+    height: 300px;
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.301);
+}
+
+.conteudo{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.301);
+    background-color: white;
+    border-radius: 8px;
+    width: 70%;
+    padding: 20px;
+    margin: 30px;
+}
+
+h2{
+    padding: 20px;
+    font-size: 2rem;
+    margin-left: 30px;
+}
+
+h3 {
+    font-size: 1.6rem;
+    display: inline-table;
+    margin-left: 20px;   
+}
+
+h4{
+    font-size: 1.5rem;
+    padding-bottom: 10px;
+    color: rgb(55, 2, 104);
+}
+
+p{
+    color: rgb(109, 109, 109);
+    margin-left: 45px;
+    
+}
+
+.imagem-card{
+    width: 220px;
+    height: 220px;
+    margin: 0; 
+
+}
+
+ .card-flex{
+    display: flex;
+    background-color: white;
+    width: 70%;
+    padding: 20px; 
+    margin-left: 30px; 
+    border-radius: 6px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.301);
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+    margin: 15px; 
+} 
+
+.card-um{
+    display: flex;
+    background-color: white;
+    width: 69%;
+    padding: 20px;
+    margin-left: 30px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.301);
+    margin: 20px;
+}
+
+ .imagem-flex{
+    width: 350px;
+    height: 350px;
+} 
+
+.destaque-flex{
+    display: flex;
+    width: 70%;
+    padding: 20px;
+    margin-left: 30px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.301);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 15px;
+}
+
+.flex{
+    display: flex;
+}
+
+.redes-sociais > p a{
+    text-decoration: none;
+    color: black;
+}
+
+.redes{
+    background-color: chartreuse;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 5px 11px -8px rgb(55, 2, 104);
+}
+
+.icones {
+    width: 25px;
+    height: 25px;
+    padding-left: 10px;
+}
+
+.instagram{
+    background-color: rgb(197, 197, 197);
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.section3{
+    width: 32%;
+
+}
+
+footer{
+    box-shadow: 2px 5px 11px -8px rgba(0, 0, 0, 0.212);
+    background-color: white;
+    height: 80px; 
+    border-top: 1px solid rgba(117, 117, 117, 0.247);
+    text-align: center;
+    margin-top: 30px;
+}
+
+.cor {
+    background-color: rgba(117, 117, 117, 0.247);
+    border-right: 1px solid rgba(107, 107, 107, 0.445);
+    width: 40%; 
+}
+
+footer p {
+    margin-top: 20px;
+}
+
+
+
+/* ESTILOS DA PÁGINA DESTAQUE */
+
+.fundo{
+    margin: auto;
+    height: 300px;
+    width: 400px;
+    /* background-color: chartreuse; */
+    margin: 20px;
+    margin-top: 80px;
+    border: 2px solid chartreuse;
+
+}
+
+.lado-um{
+    display: flex;
+}
+
+.umdestaque{
+    height: 500px;
+    width: 400px;
+    /* background-color: chartreuse; */
+}
+
+.texto{
+    margin: auto;
+    border-radius: 8px;
+    padding: 10px;
+    color: rgb(99, 95, 95);
+}
+
+.titulo{
+    padding: 0;
+    margin: 0;
+}
+
+.artigo{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.301);
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.imagem-destaque{
+    margin: auto;
+    padding: 20px;
+}
+
+
+
+  
