@@ -1,0 +1,267 @@
+
+html {
+    font-size: 18px;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    border-bottom: solid 1px black;
+    margin-bottom: 10px;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffe4c5;
+}
+
+nav, nav a {
+    padding-bottom: 5px;
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    font-size: 22px;
+    
+}
+
+nav {
+    min-height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    border-top: solid 1px black;
+}
+
+#produtos-index {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.hr-center {
+    width: 60%;
+    text-align: center;
+    color: black;
+}
+
+.text {
+    font-family: 'Shadows Into Light';
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+#materia-meio {
+    font-size: 0.5rem;
+    font-family: 'Quicksand', sans-serif;
+    width: 80%;
+    text-align: center;
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+#pandora {
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 1.2rem;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    background: rgb(255,255,255);
+    background: linear-gradient(70deg, rgba(230,230,230,1) 20%, rgba(255,255,255,1) 30%);
+    animation-duration: 5s;
+    animation-iteration-count: initial;
+}
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #ffe4c5;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    padding: 30px;
+}
+
+footer {
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+}
+
+aside p {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.5rem;
+    padding: 5px;
+}
+
+#redes-sociais {
+    background-color: #ffe4c5;
+    margin-bottom: 10px;
+}
+
+aside a {
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+
+#nomel {
+    font-size: 0.5rem;
+    background-color: white;
+}
+
+#produtos-index p {
+    background-color: #ffe4c5;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+#produtos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;  
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+figcaption {
+    font-family: 'Quicksand', sans-serif;  
+    background-color: #e0e0e0;
+}
+
+figure {
+    border: 1px;
+    border-radius: 2px;
+}
+
+h3 {
+    background-color: #ffe4c5;
+    font-family: 'Shadows Into Light';
+    margin-top: 50px;
+}
+
+#textofinal{
+    background-color: #e0e0e0;
+    margin-bottom: 40px;
+    font-size: 11px;
+    font-family: 'Quicksand', sans-serif;  
+}
+
+#quem-somos {
+    text-align: center;
+    background-color: #fafafa;
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 0.6rem;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+
+#quem-somos p img {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#familia {
+    background-color: #ffe4c5;    
+}
+
+#nome,#email,#telefone,#assunto,#mensagem {
+    border: solid 1px;
+    width: 95%;
+    padding: 1%;
+    margin: 5px;
+}
+
+label {
+    font-family: 'Quicksand', sans-serif; 
+    font-size: 1rem; 
+}
+
+form {
+    margin-bottom: 40px;
+}
+
+.formulario {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.6rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    background-color: #e0e0e0;
+}
+
+button {
+    background-color: #ffe4c5;  
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover, button:focus {
+    background-color: #e0e0e0;
+    color: black;
+}
+
+nav a:hover, a:focus {
+    color: #ffe4c5;
+}
+
+/*  
+@media screen and (min-width: 700px){
+    
+    #materia-meio{
+        font-size: 1rem;
+    }
+
+    #pandora{
+        font-size: 1rem;
+    }
+
+    nav a{
+        font-size: 1rem;
+    }
+
+    #redes-sociais p{
+        font-size: 0.8rem;
+    }
+    
+    aside p{
+        font-size: 0.8rem;
+    }
+
+    #nomel{
+        font-size: 0.6rem;
+    }
+
+}
+
+@media screen and (min-width:1200px){
+
+    article, div {
+        max-width: 80%;
+        margin: auto;
+    }
+
+    nav a{
+        font-size: 1rem;
+    }
+
+}
+*/
