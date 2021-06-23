@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A agência Ômega atua na produção de diversos tipos de serviços digitais.">
+    <title>Ômega</title>
+
+    <link rel="stylesheet" href="plugins/animate.css">
+    <link rel="stylesheet" href="plugins/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick/slick-theme.css">
+    <!-- Configuração para o icone de favorito -->
+    <link rel="icon" href="imagens/favicon.png" sizes="32x32">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- CABEÇALHO -->
+    <header>
+        <div>
+        <h1>
+            <a href="index.html">
+            <img src="imagens/logo.png" alt="Logo Ômega">Ômega
+            </a>
+        </h1>
+        <nav>
+            <a class="ativo" href="index.html">Home</a>
+            <a href="o-que-fazemos.html">O que fazemos</a>
+            <a href="nossas-equipes.html">Nossas equipes</a>
+            <a href="contato.html">Contato</a>
+        </nav>
+        </div>
+    </header>
+
+    <!-- CONTEÚDO -->
+    <main>
+        <article class="slider"> <!-- Slider -->
+            <div>
+                <img src="imagens/mesa-de-trabalho.jpg" alt="Imagem de mesa de trabalho">
+                <h2>WEB DESIGNER</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatibus quis quae laborum consequuntur pariatur impedit error reiciendis nostrum dicta?</p>
+            </div>
+
+            <div>
+                <img src="imagens/bootstrap.jpg" alt="Imagem do Bootstrap">
+                <h2>Bootstrap</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatibus quis quae laborum consequuntur pariatur impedit error reiciendis nostrum dicta?</p>
+            </div>
+
+            <div>
+                <img src="imagens/tela-com-codigos.jpg" alt="Imagem de tela com codigos">
+                <h2>Programação JavaScript</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus voluptatibus quis quae laborum consequuntur pariatur impedit error reiciendis nostrum dicta?</p>
+            </div>
+        </article>
+
+        <article class="wow bounceInUp">
+            <h2>Título</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel blanditiis perspiciatis, earum labore odit ad.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, officiis facilis ipsam ea impedit hic maiores dolores ipsum ducimus dolor?</p>
+        </article>
+
+        <article class="wow bounceInDown">
+            <h2>Título</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod accusantium temporibus doloribus ipsam modi! Beatae distinctio blanditiis maxime quod odio?</p>
+
+            <p class="centralizar">
+                <img src="imagens/dispositivos.png" alt="Computadores e dispositivos">
+                <img src="imagens/tecnologias.png" alt="Logo das tecnologias">
+            </p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo voluptate distinctio molestiae error facilis quia perspiciatis optio blanditiis suscipit quibusdam provident odit, impedit minus, voluptatem veniam ad, sapiente sed?</p>
+        </article>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <h2>Siga-nos!</h2>
+        <aside>
+            <a href="http://facebook.com">
+                <img src="imagens/facebook.png" alt="Link facebook">
+            </a>
+
+            <a href="http://instagram.com">
+                <img src="imagens/instagram.png" alt="Link instagram">
+            </a>
+            
+            <a href="http://linkedin.com">
+                <img src="imagens/linkedin.png" alt="Link linkedin">
+            </a>  
+        </aside>
+
+        <p> Desenvolvido por <b>Letícia Florêncio</b> &copy; 2019</p>
+    </footer>
+
+<script src="plugins/wow.min.js"></script>
+<script src="plugins/jquery.min.js"></script>
+<script src="plugins/slick/slick.min.js"></script>
+
+<script>
+    // ATIVAÇÃO DO PLUGIN WOW //
+    new WOW().init();
+
+    // ATIVAÇÃO DO PLUGIN SLICK //
+    $(document).ready(function(){
+     $('.slider').slick({
+        autoplay: true,
+        autoplaySpeed: 5000,
+        dost: true,
+        arrows: false,
+
+  });
+});
+</script>
+</body>
+</html>

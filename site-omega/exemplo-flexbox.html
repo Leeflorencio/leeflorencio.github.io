@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Flexbox</title>
+<style>
+    #container { 
+        width: 400px; 
+        height: 400px; margin: auto;
+        box-shadow: black 0 0 10px;
+    }
+    
+    /*  Flex Container (sempre no pai) */
+    #exemplo { 
+        width: 90%; 
+        height: 200px;
+        margin: auto; 
+        background-color: lightgreen; 
+
+        /*  Transformando o elemento em flex */
+        display: flex;
+
+        flex-direction: row; /* Padrão é row */
+
+        /* Alinhamento HORIZONTAL */
+        justify-content: center;
+
+        /* Alinhamento VERTICAL */
+        align-items: center;
+
+        /* flex-start, flex-end, center,space-between, space-around */
+    }
+    
+    /* Flex itens */
+    .caixas { 
+        background-color: yellow; 
+        border: solid 1px; 
+        width: 50px; 
+        height: 50px; 
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }    
+    
+</style>
+</head>
+<body>
+    <div id="container">
+        <h1>Usando Flexbox para alinhamento de elementos e conteúdo</h1>
+        <hr>
+        
+        <div id="exemplo">
+            <div class="caixas">UM</div>
+            <div class="caixas">DOIS</div>
+            <div class="caixas">TRÊS</div>
+        </div>
+    </div>
+</body>
+        
+</html>

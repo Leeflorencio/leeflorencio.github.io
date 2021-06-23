@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Tags e Atributos para formulário</h1>
+    <hr>
+    <form action="">
+        <p>
+            <label for="nome">Nome:</label>
+            <input required type="text" name="nome" id="nome">
+        </p>
+        <p>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email">
+        </p>
+        <p>
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data">
+        </p>
+        <p>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade">
+        </p>
+        <p>
+            <label for="tecnologias">Tecnologias</label>
+            <select name="tecnologias" id="tecnologias">
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>JavaScript</option>
+            </select>
+        </p>
+        <p>Sexo:<br>
+            <label for="masculino">Masculino</label>
+            <input type="radio" id="masculino" name="sexo">
+            <br>
+            <label for="feminino">Feminino</label>
+            <input type="radio" id="feminino" name="sexo">
+        </p>
+
+        <p>Interesses: <br>
+            <label for="design">Design</label>
+            <input type="checkbox" name="interesses" id="design"> <br>
+            <label for="programacao">Programação</label>
+            <input type="checkbox" name="interesses" id="programacao">
+        </p>
+        <button type="submit">Enviar formulário</button>
+    </form>
+
+</body>
+</html>
